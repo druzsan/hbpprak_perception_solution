@@ -4,10 +4,10 @@ This repository defines the solution of the perception challenge of the KIT cour
 Please click [here](https://github.com/HBPNeurorobotics/hbpprak_perception), to see the challenge definition and details.
 
 ## Installation
-1. Clone project
+1. Clone project.
 2. Create a link to the project folder in the NRP/Experiments folder.
 3. Now find the project "HBP Praktikum Perception Challenge Solution" in the frontend under 'template experiments' and clone it.
-4. Copy or link the following files from the project folder to .opt/nrpStorage/hbpprak_perception_solution_0
+4. Copy or link the following files from the project folder to .opt/nrpStorage/hbpprak_perception_solution_0:
     - stepper.py
     - thimblerigger.py
     - thimblerigger_config.py
@@ -15,5 +15,3 @@ Please click [here](https://github.com/HBPNeurorobotics/hbpprak_perception), to 
 
 ## Launch Solution
 After launching the experiment and starting the simulation the robot waits a few seconds (for still standing purposes), then the challenge starts.
-
-# hbpprak_perception_solution
