@@ -2,11 +2,11 @@
 <ExD xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
      xmlns="http://schemas.humanbrainproject.eu/SP10/2014/ExDConfig"
      xsi:schemaLocation="http://schemas.humanbrainproject.eu/SP10/2014/ExDConfig ../ExDConfFile.xsd">
-    <name>HBP Praktikum Motion Challenge Solution</name>
+    <name>HBP Praktikum Perception Challenge Solution</name>
     <thumbnail>ExDThumbnail.png</thumbnail>
     <description>Thimblerigger Challenge of the KIT practical "Virtual Neurorobotics".
     Track a ball under mugs that are being shuffled around.</description>
-    <timeout>600</timeout>
+    <timeout>3600</timeout>
     <configuration type="3d-settings" src="ExDTemplateICub.3ds"/>
     <maturity>production</maturity>
     <environmentModel src="empty_world/empty_world.sdf">
