@@ -80,9 +80,8 @@ def recognize(t, state, camera, mug, mugs, lastImg):
         if isNotEmpty(currentMug):
             clientLogger.info("The ball is under the " + str(predictMug(currentMugs, currentMug) + 1) + "th mug from me")
             mug.value = currentMug
+            lastImg.value = (img, 0)
             state.value = ("mugs_recognized", t)
-        lastImg.value = (img, 0)
-        state.value = ("mugs_recognized", t)
     elif state.value[0] == "shuffle":
         clientLogger.info("Recognizer: tracking mug with ball")
         if lastImg.value[1] > 50:

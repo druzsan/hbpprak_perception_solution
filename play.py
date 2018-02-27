@@ -6,10 +6,8 @@ def play(t, eye_tilt, state):
     #clientLogger.info("Player: state = " + str(state.value) + ", time = " + str(t))
     if t < 8.0:
         eye_tilt.send_message(std_msgs.msg.Float64(0.0))
-        return
     elif t < 10.0:
         eye_tilt.send_message(std_msgs.msg.Float64(-1.0*np.pi/4.0))
-        return
     elif state.value[0] == "initialized":
         from rospy import ServiceProxy, wait_for_service, ServiceException
         from std_srvs.srv import Trigger
